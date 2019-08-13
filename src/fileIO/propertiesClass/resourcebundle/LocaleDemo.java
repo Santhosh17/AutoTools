@@ -11,9 +11,9 @@ public class LocaleDemo {
 		// Locale
 		// ResourceBundle -> java.util
 		
-		String lang = "en";
+		String lang = "ka";
 		String country = "IN";
-		String fileLocation = "Translate";
+		String fileLocation = "translations/Translate";
 		
 		Locale l = new Locale(lang,country);
 		ResourceBundle rb = ResourceBundle.getBundle(fileLocation,l);
